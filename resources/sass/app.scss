@@ -1,0 +1,87 @@
+@font-face{
+    font-family: 'Monserrat-Light';
+    src: url('./Fonts/MontserratAlternates-Light.ttf')
+}
+
+@font-face{
+    font-family: 'Monserrat-ExtraLight';
+    src: url('./Fonts/MontserratAlternates-ExtraLight.ttf')
+}
+
+
+@font-face{
+    font-family: 'Monserrat-Regular';
+    src: url('./Fonts/MontserratAlternates-Regular.ttf')
+}
+
+
+@font-face{
+    font-family: 'Monserrat-Bold';
+    src: url('./Fonts/MontserratAlternates-Bold.ttf')
+}
+
+
+@font-face{
+    font-family: 'Monserrat-Thin';
+    src: url('./Fonts/MontserratAlternates-Thin.ttf')
+}
+
+@font-face{
+    font-family: 'Sen-Regular';
+    src: url('./Fonts/Sen-Regular.ttf')
+}
+
+
+@font-face{
+    font-family: 'Sen-Bold';
+    src: url('./Fonts/Sen-Bold.ttf')
+}
+
+
+@font-face{
+    font-family: 'Sen-ExtraBold';
+    src: url('./Fonts/Sen-ExtraBold.ttf')
+}
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/mixins/breakpoints';
+
+
+// Swiper
+@import '~swiper/swiper-bundle.css';
+
+body {
+    font-family: 'Sen-Regular';
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #cacaca; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@import './font.scss';
+@import './layout.scss';
+@import 'components/header.scss';
+@import 'components/card.scss';
+@import './components/banner.scss';
+@import './home.scss';
+@import './noticias.scss';

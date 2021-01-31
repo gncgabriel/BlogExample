@@ -1,0 +1,23 @@
+.card_noticias {
+    width: 735px;
+    @include media-breakpoint-down(md) {
+        width: 100%;
+    }
+    & .title_section {
+        width: 100%;
+        @include media-breakpoint-down(md) {
+            padding-left: 15px;
+        }
+    }
+}
+.mais_lidas {
+    width: 350px;
+    &_mobile {
+        height: 190px;
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        // border-top: 1px solid $border_color;
+        border-bottom: 1px solid $border_color;
+    }
+}

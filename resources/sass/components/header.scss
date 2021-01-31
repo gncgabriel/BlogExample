@@ -1,0 +1,22 @@
+$font-dark: rgb(94, 94, 94);
+.logo{
+    // &:before{
+    //     content: '< ';
+    //     color: $font-dark;
+    // }
+    width: 120px;
+    & .icon{
+        width: 22px;
+        height: 29px;
+        background-size: 13px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+}
+.navbar{
+    background-color: #424242;
+    @include media-breakpoint-up(lg){
+        
+    }
+}
