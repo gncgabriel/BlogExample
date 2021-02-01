@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark navbar-expand-lg">
+<nav class="navbar sticky-top navbar-dark navbar-expand-lg">
     <a class="navbar-brand logo d-flex justify-content-between align-items-center" href="{{ route('home') }}">{{env('APP_NAME')}} <i class="icon" style="background-image: url({{asset('images/Tocha.png')}})"></i> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

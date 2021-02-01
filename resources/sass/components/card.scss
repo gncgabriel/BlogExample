@@ -1,4 +1,4 @@
-$border_color: rgb(158, 158, 158);
+$border_color: rgb(170, 170, 170);
 .nc_card {
     width: 363px;
     margin-bottom: 10px;
@@ -82,7 +82,7 @@ $border_color: rgb(158, 158, 158);
                 position: relative;
 
                 &:after {
-                    content: "Clique para ler";
+                    content: "";
                     color: white;
                     font-size: 20px;
                     font-family: "Monserrat-Bold";
@@ -90,7 +90,7 @@ $border_color: rgb(158, 158, 158);
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-color: rgba(0, 0, 0, 0.829);
+                    background-color: rgba(0, 0, 0, 0.664);
                     width: 100%;
                     height: 100%;
                 }
@@ -112,6 +112,8 @@ $border_color: rgb(158, 158, 158);
 .card_list {
     cursor: pointer;
 
+    
+
     &:not(:last-of-type) {
         border-bottom: 1px solid $border_color;
     }
@@ -127,6 +129,14 @@ $border_color: rgb(158, 158, 158);
         // border-right: 1px solid $border_color;
         min-height: 90px;
         overflow: hidden;
+
+        & .autor{
+            & span{
+                @include media-breakpoint-down(md){
+                    font-size: 12px;
+                }
+            }
+        }
     }
 
     &.hover {
@@ -136,6 +146,7 @@ $border_color: rgb(158, 158, 158);
             & .autor {
                 & span {
                     color: rgb(189, 75, 75);
+                    
                 }
             }
         }

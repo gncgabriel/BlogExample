@@ -1,13 +1,23 @@
-.container{
-    @include media-breakpoint-down(md){
+.container {
+    background-color: white;
+    padding-top: 15px;
+    @include media-breakpoint-down(md) {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-.transition{
+.transition {
     transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
+}
+
+.box_anuncio {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    & .container {
+        height: 150px;
+    }
 }

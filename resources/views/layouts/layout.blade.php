@@ -13,6 +13,8 @@
 <body>
     
     @yield('header')
+    @yield('anuncio')
+
 
     <div class="container">
         @yield('conteudo')
