@@ -50,7 +50,7 @@
             </div>
             @for ($i = 0; $i < 10; $i++)
                 @component('components.card', [
-                    'imagem' => asset('images/News.jpeg'),
+                    'imagem' => asset('images/Banner2.jpg'),
                     'titulo' => 'Covid-19 e a Ciência de dados: Driblando a Epidemia.',
                     'spoiler' => 'Desde o surgimento da COVID-19, um dos maiores desafios é minimizar o contágio do vírus',
                     ])
