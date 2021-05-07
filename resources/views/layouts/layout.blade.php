@@ -12,7 +12,6 @@
 
 <body>
     
-    @yield('header')
     @yield('anuncio')
 
 

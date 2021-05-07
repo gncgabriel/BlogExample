@@ -19,7 +19,7 @@
                 <span> {{$data ?? '01/01/2021'}} - {{$hora ?? '15:00'}} Por {{$autor ?? 'NC Dev'}}</span>
             </div>
             <div class="title font-monserrat-bold" style="font-size: 20px">{{ $titulo ?? '###' }}</div>
-            <div class="spoiler">{{ $spoiler ?? 'Leia esse artigo' }}</div>
+            <div class="spoiler">{{ $spoiler ?? '' }}</div>
         </div>
     </a>
 </div>
